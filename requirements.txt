@@ -1,0 +1,7 @@
+pytest
+pytest-cov
+pycodestyle
+pytest-pylint
+pandas
+watchdog
+python-dateutil
