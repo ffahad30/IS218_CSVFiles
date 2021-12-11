@@ -1,10 +1,2 @@
-# Calculator Project Setup
-[![Build Status](https://app.travis-ci.com/ffahad30/calc2.svg?branch=main)](https://app.travis-ci.com/ffahad30/calc2)
-
-To run tests, Lint, and Coverage report use this command:
-
-pytest  --pylint --cov
-
-.pylintrc is the config for pylint
-.coveragerc is the config for coverage
-setup.py is a config file for pytest
+Pylint & Coverage:
+![pytest_pylint_cov2](https://user-images.githubusercontent.com/70772195/145694907-ec17fe52-66fe-4ed2-afb5-b7d1c48fdf21.PNG)
