@@ -12,11 +12,11 @@ def test_calculator_multiply_static():
     """testing that the calculator has a static method for multiplication"""
     # pylint: disable=unused-argument,redefined-outer-name
     path = "done/multiplication.csv"
-    columns = reading_csv.reading_csv(path)
-    for i in range(len(columns[2])):
+    table = reading_csv.reading_csv(path)
+    for i in range(len(table)):
         # Arrange
-        multiplication = Multiplication(columns[0][i], (columns[1][i]))
+        multiplication = Multiplication(table[0][i], (table[1][i]))
         # Act
         # Assert
-        assert multiplication.get_result() == columns[2][i]
+        assert multiplication.get_result() == table[2][i]
         log.log_components(path, i, "multiplication", multiplication.get_result())
