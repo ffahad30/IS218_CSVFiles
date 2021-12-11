@@ -12,7 +12,7 @@ from tests import reading_csv, error_log as log
 def test_calculator_divide_error_static():
     """testing that the calculator throws an exception for the ZeroDivisionError"""
     # pylint: disable=unused-argument,redefined-outer-name
-    path = "divisionerror.csv"
+    path = "done/divisionerror.csv"
     columns = reading_csv.reading_csv(path)
     for i in range(len(columns[2])):
         # Arrange

@@ -12,7 +12,7 @@ from tests import reading_csv, results_log as log
 def test_calculator_subtract_static():
     """testing that the calculator has a static method for addition"""
     # pylint: disable=unused-argument,redefined-outer-name
-    path = "subtraction.csv"
+    path = "done/subtraction.csv"
     columns = reading_csv.reading_csv(path)
     for i in range(len(columns[2])):
         # Arrange

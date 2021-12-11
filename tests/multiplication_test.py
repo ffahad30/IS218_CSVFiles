@@ -11,7 +11,7 @@ from tests import reading_csv, results_log as log
 def test_calculator_multiply_static():
     """testing that the calculator has a static method for multiplication"""
     # pylint: disable=unused-argument,redefined-outer-name
-    path = "multiplication.csv"
+    path = "done/multiplication.csv"
     columns = reading_csv.reading_csv(path)
     for i in range(len(columns[2])):
         # Arrange
